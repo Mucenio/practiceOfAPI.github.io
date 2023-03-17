@@ -14,10 +14,10 @@
 }
 ::-webkit-scrollbar-track{
     
-    background-color: #434445;
+    background-color: rgb(22, 24, 30);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(22, 24, 30);
+    background-color: #5c6062d0;
     border-radius: 6px;
 }
 
@@ -34,23 +34,28 @@ header{
     margin-bottom: 2rem;
     color: var(--var-textColor);
 }
+header nav{
+    display: block;
+    height: 10vh;
+    width: 100%;
+}
 header nav ul{
-    height: 100%;
     height: 3rem;
     display: flex;
     align-items: center;
-    justify-content: right;
-    list-style: none;
-    background-color: #030f1680;
+    justify-content: space-between;
+        list-style: none;
+        background-color: #030f1680;
 }
 header nav ul li{
-    width: 8vw;
-    height:100%;
+    width: 100px;
+    height:3rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; 
+    float:right;
 }
 
 
@@ -68,9 +73,33 @@ header nav ul li span:hover {
 
 header nav ul li .lenguageItem{
     z-index: 100;
+    background-color: #03131c;
 }
 
 
 
 
+
+
+
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main input{
+    width: 15rem;
+    height: 2rem;
+    padding-left: 10px;
+    border-bottom: 3px solid var(--var-textColor);
+    outline: none;
+    background-color: #0f1920f7;
+    color: var(--var-textColor);
+    
+}
 

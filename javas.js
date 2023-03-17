@@ -35,12 +35,21 @@ if(`${user.firstname.toLowerCase()}`.startsWith(input.value.toLowerCase()) || `$
 
 
 function languageMenu(){
-    let menu = `
+    if(!changeLenguage.classList.contains('active')){
+        changeLenguage.classList.add("active");
+        
+        let menu = `
         <li class="lenguageItem"><span>Lenguage</span></li>
         <li class="lenguageItem"><span>Español</span></li>
         <li class="lenguageItem"><span>Ingles</span></li>`;
-    changeLenguage.innerHTML = menu;
+        changeLenguage.innerHTML = menu;
+    }else{
+        changeLenguage.classList.remove("active");
+        changeLenguage.innerHTML = 'Lenguage';
+    }
+    
     console.log("hola")
+
 
       
 }
