@@ -100,6 +100,28 @@ main input{
     outline: none;
     background-color: #0f1920f7;
     color: var(--var-textColor);
+
     
 }
 
+main ol{
+    list-style: none;
+    width: 15rem;
+    height: 20rem;
+    overflow: auto;
+
+}
+
+main ol li{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+    color: #fdfdfd;
+    background-color: #1d2932f6;
+}
+main ol li:hover{
+    background-color: #0f1920f7;
+    color: var(--var-textColor);
+}
