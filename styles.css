@@ -24,6 +24,10 @@
 body{
     background-color: var(--var-bg);
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 
@@ -123,5 +127,25 @@ main ol li{
 }
 main ol li:hover{
     background-color: #0f1920f7;
+    color: var(--var-textColor);
+}
+
+
+footer{
+    width: 100%;
+    height: 5vw;
+    border: 1px solid red;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+footer ul li{
     color: var(--var-textColor);
 }
