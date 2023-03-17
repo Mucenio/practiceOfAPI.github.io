@@ -1,0 +1,102 @@
+:root{
+    --var-bg:#132129;
+    --var-textColor:#1089d0c0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    
+    background-color: #434445;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(22, 24, 30);
+    border-radius: 6px;
+}
+
+body{
+    background-color: var(--var-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+
+header{
+    width: 100%;
+    margin-bottom: 2rem;
+    color: var(--var-textColor);
+}
+header nav{
+}
+header nav ul{
+    height: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    background-color: #030f1680;
+}
+header nav ul li{
+    width: 8vw;
+    height:100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+header nav ul li span:hover {
+    color: #0e4462c0;
+    background-color: #030f16b9;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header nav ul li .lenguageItem{
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#searchInput{
+    height: 2rem;
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
