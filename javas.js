@@ -40,6 +40,7 @@ function languageMenu(){
         <li class="lenguageItem"><span>Español</span></li>
         <li class="lenguageItem"><span>Ingles</span></li>`;
     changeLenguage.innerHTML = menu;
+    console.log("hola")
 
       
 }
